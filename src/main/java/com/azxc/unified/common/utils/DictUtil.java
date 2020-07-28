@@ -16,7 +16,7 @@ import org.springframework.cache.Cache.ValueWrapper;
  */
 public class DictUtil {
 
-  private static Cache dictCache = EhCacheUtil.getDictCache();
+  private static final Cache dictCache = EhCacheUtil.getDictCache();
 
   /**
    * 获取字典值集合

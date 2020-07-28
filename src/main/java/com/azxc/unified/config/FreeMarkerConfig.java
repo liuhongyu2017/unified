@@ -5,6 +5,8 @@ import com.azxc.unified.common.utils.PageUtil;
 import com.jagregory.shiro.freemarker.ShiroTags;
 import freemarker.template.TemplateModelException;
 import javax.annotation.PostConstruct;
+import org.springframework.boot.autoconfigure.AutoConfigureAfter;
+import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -13,6 +15,7 @@ import org.springframework.context.annotation.Configuration;
  * @author lhy
  * @version 1.0 2020/3/13
  */
+@AutoConfigureAfter(CacheManager.class)
 @Configuration
 public class FreeMarkerConfig {
 
