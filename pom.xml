@@ -24,7 +24,7 @@
     <skipTests>true</skipTests>
 
     <!-- shiro权限管理框架版本 -->
-    <shiro.version>1.5.1</shiro.version>
+    <shiro.version>1.7.1</shiro.version>
     <!-- shiro-freemarker标签 -->
     <shiro-freemarker.verion>1.0.1</shiro-freemarker.verion>
     <!-- mysql连接驱动版本 -->
